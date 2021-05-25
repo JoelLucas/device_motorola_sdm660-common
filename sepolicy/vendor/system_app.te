@@ -12,7 +12,5 @@ dontaudit system_app {
 
 allow system_app sysfs_fingerprint:dir search;
 
-allow system_app sysfs_zram:filer_file_perms;
-
-# allow system apps to read battery statusr_di
-r_file(system_app, sysfs_battery_supply)
+# allow system apps to read battery status
+r_dir_file(system_app, sysfs_battery_supply)
