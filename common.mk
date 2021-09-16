@@ -417,6 +417,3 @@ PRODUCT_PACKAGES += \
 # Wi-Fi Display
 PRODUCT_PACKAGES += \
     libmediaextractorservice
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
